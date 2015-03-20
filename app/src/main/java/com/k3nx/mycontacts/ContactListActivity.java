@@ -23,7 +23,7 @@ public class ContactListActivity extends ActionBarActivity {
 
         ArrayList<Contact> contacts = new ArrayList<>();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             Contact contact1 = new Contact();
             contact1.setName("Ken Wilcox");
             contacts.add(contact1);
